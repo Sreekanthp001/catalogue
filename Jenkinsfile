@@ -88,15 +88,7 @@ pipeline {
                 }
             }
         }
-        stage('Test') {
-            steps {
-                script{
-                    echo 'Testing..'
-                } 
-            }
-        }
-      
-        /* post { 
+        post { 
             always { 
                 echo 'I will always say Hello again!'
                 deleteDir()
@@ -107,7 +99,7 @@ pipeline {
             failure { 
                 echo 'Hello Failure'
             }
-        } */
+        }
     }
 }
  
