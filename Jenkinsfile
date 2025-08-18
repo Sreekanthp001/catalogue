@@ -92,7 +92,7 @@ pipeline {
             steps {
                 script{
                     echo 'Testing..'
-                }
+                } 
             }
         }
       
