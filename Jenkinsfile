@@ -16,7 +16,7 @@ pipeline {
     parameters {
         booleanParam(name: 'deploy', defaultValue: false, description: 'Toggle this value')
     }
-    Build
+    //Build
     stages {
         stage('Read package.json') {
             steps {
