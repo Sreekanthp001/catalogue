@@ -1,7 +1,7 @@
 name: cicd
-on:
-  push:
-  workflow_dispatch:
+on: [push]
+  # push:
+  # workflow_dispatch:
 jobs:
   common:
     uses: Sreekanthp001/reusable-workflows/.github/workflows/common.yaml@main
