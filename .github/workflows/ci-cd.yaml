@@ -3,7 +3,8 @@ on: [push]
   # push:
   # workflow_dispatch:
 jobs:
-  common:
+  build:
+  #common:
     uses: Sreekanthp001/reusable-workflows/.github/workflows/common.yaml@main
     with:
       project: roboshop
